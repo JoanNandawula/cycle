@@ -12,6 +12,16 @@ describe('Multiply', function() {
     expect(c).to.equal(1)
     })
 
+        //test cycle 2
+        it('should return 4 when multiplying 2 and 2', () => {
+            var a = 2
+            var b = 2
+        
+            var c = multiply(a,b)
+        
+            expect(c).to.equal(4)
+            })
+
   
 
     })
